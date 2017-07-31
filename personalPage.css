@@ -1,0 +1,74 @@
+body {
+	/*background-color: #112e4b;*/
+	background-color: black;
+}
+
+img{
+	position: absolute;
+	display: block;
+	width: 10%;
+	height: 21%;
+	margin: 30px 46%;/*placed*/
+	z-index: 2;
+}
+
+.name{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 100px;
+	color: white;
+	font-family: "Old English Text MT", "Vivaldi", serif;
+}
+.greet{
+	font-size: 20px;
+	text-align: center;
+	margin-top: -10px;
+	color: #888888;
+	font-family: "Vivaldi", "Old English Text MT", serif;
+}
+
+.intro{
+	border-style: solid;
+	border-color: #FFFFBB;
+	border-radius: 0;
+	border-width: 3px;
+	position: relative;
+	margin-top: 125px;
+	margin-bottom: 100px;
+	margin-right: 140px;
+	margin-left: 140px;
+	padding: 120px;
+	padding-top: 0px;
+	padding-bottom: 80px;
+	text-align: left;
+	color: white;
+	font-family: "Microsoft JhengHei";
+	font-size: 25px;
+	z-index: 1;
+}
+
+.context{
+	margin-top: 10px;
+	margin-bottom: 200px;
+}
+
+.story{
+	margin-bottom: 500px;
+}
+
+.top{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fiexd-header{
+	position:fixed; /*固定位置定位*/
+	top:0; /*距離上方 0 像素*/
+	z-index:2; /*重疊時會在其他元素之上*/
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	z-index: 3;
+}
+
+
