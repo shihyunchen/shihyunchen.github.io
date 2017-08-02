@@ -6,7 +6,7 @@ body {
 .welcome {
 	position: absolute;
 	font-size: 50px;
-	margin-top: 400px;
+	margin-top: 430px;
 	margin-left: 32%;
 	color: white;
 	font-family: "Old English Text MT", "Vivaldi", serif;
@@ -181,7 +181,7 @@ body {
 	top: 0px;
 	right: 0px;
 	width: 100%;
-	z-index: 3;
+	z-index: 4;
 }
 
 .tea {
