@@ -12,6 +12,7 @@ $(document).ready(function() {
         }, 1300, 'easeInOutExpo');
     });
     $("#authorbar").click(function(event) {
+        event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#author").offset().top
         }, 1300, 'easeInOutExpo');
@@ -35,26 +36,31 @@ $(document).ready(function() {
         }, 1300, 'easeInOutExpo');
     });
     $("#introbar").click(function(event) {
+        event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#introduction").offset().top
         }, 1300, 'easeInOutExpo');
     });
     $("#expbar").click(function(event) {
+        event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#experience").offset().top
         }, 1300, 'easeInOutExpo');
     });
     $("#storybar").click(function(event) {
+        event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#story").offset().top
         }, 1300, 'swing');
     });
     $("#friendsbar").click(function(event) {
+        event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#friends").offset().top
         }, 1300, 'easeInOutExpo');
     });
     $("#famousbar").click(function(event) {
+        event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#famous").offset().top
         }, 1300, 'easeInOutExpo');
