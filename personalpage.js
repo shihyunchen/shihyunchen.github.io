@@ -1,54 +1,22 @@
 $(document).ready(function() {
-    $("#homebar").click(function(event)) {
+    $("#homebar").click(function(event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#home").offset().top
         }, 1300, 'easeInOutExpo');
     });  
-    $("#welcomebtn").click(function(event)) {
+    $("#welcomebtn").click(function(event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#author").offset().top
         }, 1300, 'easeInOutExpo');
     });
-    $("#authorbar").click(function(event)) {
-        event.preventDefault();
+    $("#authorbar").click(function(event) {
         $('html, body').animate({
             scrollTop: $("#author").offset().top
         }, 1300, 'easeInOutExpo');
     });
-     
-    $("#introbar").click(function(event)) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#introduction").offset().top
-        }, 1300, 'easeInOutExpo');
-    });
-    $("#expbar").click(function(event)) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#experience").offset().top
-        }, 1300, 'easeInOutExpo');
-    });
-    $("#storybar").click(function(event)) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#story").offset().top
-        }, 1300, 'swing');
-    });
-    $("#friendsbar").click(function(event)) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#friends").offset().top
-        }, 1300, 'easeInOutExpo');
-    });
-    $("#famousbar").click(function(event)) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#famous").offset().top
-        }, 1300, 'easeInOutExpo');
-    });
-    $("#fruitbtn").click(function(event) {
+     $("#fruitbtn").click(function(event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#introduction").offset().top
@@ -64,6 +32,31 @@ $(document).ready(function() {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#story").offset().top
+        }, 1300, 'easeInOutExpo');
+    });
+    $("#introbar").click(function(event) {
+        $('html, body').animate({
+            scrollTop: $("#introduction").offset().top
+        }, 1300, 'easeInOutExpo');
+    });
+    $("#expbar").click(function(event) {
+        $('html, body').animate({
+            scrollTop: $("#experience").offset().top
+        }, 1300, 'easeInOutExpo');
+    });
+    $("#storybar").click(function(event) {
+        $('html, body').animate({
+            scrollTop: $("#story").offset().top
+        }, 1300, 'swing');
+    });
+    $("#friendsbar").click(function(event) {
+        $('html, body').animate({
+            scrollTop: $("#friends").offset().top
+        }, 1300, 'easeInOutExpo');
+    });
+    $("#famousbar").click(function(event) {
+        $('html, body').animate({
+            scrollTop: $("#famous").offset().top
         }, 1300, 'easeInOutExpo');
     });
      $("#pdn5").click(function(event) {
@@ -87,7 +80,7 @@ $(document).ready(function() {
         $("#puding4").click(function(event) {
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: $("#home").offset().top
+            scrollTop: $("#welcomebtn").offset().top
         }, 1300, 'easeInOutExpo');
     });
 
