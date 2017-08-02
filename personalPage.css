@@ -3,42 +3,152 @@ body {
 	background-color: black;
 }
 
-img{
+.welcome {
+	position: absolute;
+	font-size: 50px;
+	margin-top: 400px;
+	margin-left: 32%;
+	color: white;
+	font-family: "Old English Text MT", "Vivaldi", serif;
+	z-index: 3;
+}
+
+.cinna {
 	position: absolute;
 	display: block;
-	width: 10%;
-	height: 21%;
-	margin: 30px 46%;/*placed*/
+	width: 40%;
+	height: 93%;
+	margin: -140px 50%;
+	/*placed*/
+	z-index: 0;
+	clip: rect(20px 500px);
+}
+
+.name {
+	position: relative;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: 300px;
+	color: white;
+	font-family: "Old English Text MT", "Vivaldi", serif;
+	z-index: 1;
+}
+
+.topofall {
+	position: absolute;
+	z-index: 1;
+}
+
+
+
+.fish {
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 113%;
+	margin: -60px 3%;
+	/*placed*/
+	z-index: 1;
+}
+
+.fish2 {
+	position: absolute;
+	display: block;
+	width: 42%;
+	height: 90%;
+	margin: -200px -2%;
+	/*placed*/
+	z-index: 1;
+}
+
+.fruit {
+	position: absolute;
+	display: block;
+	width: 9%;
+	height: 62%;
+	margin: 35px 13%;
+	/*placed*/
+	z-index: 3;
+}
+
+.puding1 {
+	position: absolute;
+	display: block;
+	width: 12%;
+	height: 25%;
+	margin: 888px 73%;
+	/*placed*/
 	z-index: 2;
 }
 
-.name{
-	font-size: 50px;
-	text-align: center;
-	margin-top: 100px;
-	color: white;
-	font-family: "Old English Text MT", "Vivaldi", serif;
-}
-.greet{
-	font-size: 20px;
-	text-align: center;
-	margin-top: -10px;
-	color: #888888;
-	font-family: "Vivaldi", "Old English Text MT", serif;
+.puding6 {
+	position: relative;
+	display: block;
+	width: 40%;
+	height: 40%;
+	margin: 90px 0%;
+	/*placed*/
+	float: right;
+	z-index: 2;
 }
 
-.intro{
+.puding5 {
+	position: relative;
+	display: block;
+	width: 30%;
+	height: 30%;
+	margin: -10px 0%;
+	/*placed*/
+	float: right;
+	z-index: 2;
+}
+
+.puding7 {
+	position: relative;
+	display: block;
+	width: 20%;
+	height: 20%;
+	margin: -130px 430px;
+	/*placed*/
+	float: right;
+	z-index: 2;
+}
+
+.puding2 {
+	position: relative;
+	display: block;
+	width: 20%;
+	height: 20%;
+	margin: -20px -20px;
+	/*placed*/
+	float: left;
+	z-index: 2;
+}
+
+.puding4 {
+	position: relative;
+	display: block;
+	width: 50%;
+	height: 50%;
+	margin: 0px;
+	/*placed*/
+	float: right;
+	z-index: 2;
+}
+
+
+.intro {
 	border-style: solid;
 	border-color: #FFFFBB;
 	border-radius: 0;
 	border-width: 3px;
 	position: relative;
-	margin-top: 125px;
+	margin-top: 500px;
 	margin-bottom: 100px;
 	margin-right: 140px;
 	margin-left: 140px;
 	padding: 120px;
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 80px;
 	text-align: left;
 	color: white;
@@ -47,28 +157,44 @@ img{
 	z-index: 1;
 }
 
-.context{
+.context {
 	margin-top: 10px;
-	margin-bottom: 200px;
+	margin-bottom: 300px;
 }
 
-.story{
+.story {
 	margin-bottom: 500px;
 }
 
-.top{
-	margin-top: 10px;
-	margin-bottom: 10px;
+.top {
+	margin-top: -70px;
+	margin-bottom: 300px;
 }
 
-.fiexd-header{
-	position:fixed; /*固定位置定位*/
-	top:0; /*距離上方 0 像素*/
-	z-index:2; /*重疊時會在其他元素之上*/
+.fiexd-header {
+	position: fixed;
+	/*固定位置定位*/
+	top: 0;
+	/*距離上方 0 像素*/
+	z-index: 2;
+	/*重疊時會在其他元素之上*/
 	top: 0px;
 	right: 0px;
 	width: 100%;
 	z-index: 3;
 }
 
+.tea {
+	width: 100%;
+	height: 10%;
+	margin-right: 50%;
+	z-index: 0;
+}
 
+.slide {
+	z-index: -1;
+}
+
+a:hover {
+	color: yellow;
+}
