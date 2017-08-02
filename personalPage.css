@@ -5,9 +5,9 @@ body {
 
 .welcome {
 	position: absolute;
-	font-size: 50px;
-	margin-top: 430px;
-	margin-left: 32%;
+	font-size: 4vw;
+	margin-top: 32vw;
+	margin-left: 32vw;
 	color: white;
 	font-family: "Old English Text MT", "Vivaldi", serif;
 	z-index: 3;
@@ -16,9 +16,9 @@ body {
 .cinna {
 	position: absolute;
 	display: block;
-	width: 40%;
-	height: 93%;
-	margin: -140px 50%;
+	width: 38vw;
+	height: 42vw;
+	margin: -10vw 50vw;
 	/*placed*/
 	z-index: 0;
 	clip: rect(20px 500px);
@@ -26,9 +26,9 @@ body {
 
 .name {
 	position: relative;
-	font-size: 50px;
-	margin-top: 100px;
-	margin-left: 300px;
+	font-size: 4vw;
+	margin-top: 7vw;
+	margin-left: 20vw;
 	color: white;
 	font-family: "Old English Text MT", "Vivaldi", serif;
 	z-index: 1;
@@ -39,24 +39,22 @@ body {
 	z-index: 1;
 }
 
-
-
-.fish {
+.fish2 {
 	position: absolute;
 	display: block;
-	width: 50%;
-	height: 113%;
-	margin: -60px 3%;
+	width: 45vw;
+	height: 45vw;
+	margin: -16vw -6vw;
 	/*placed*/
 	z-index: 1;
 }
 
-.fish2 {
+.fish {
 	position: absolute;
 	display: block;
-	width: 42%;
-	height: 90%;
-	margin: -200px -2%;
+	width: 55vw;
+	height: 55vw;
+	margin: -5vw -1vw;
 	/*placed*/
 	z-index: 1;
 }
@@ -64,9 +62,9 @@ body {
 .fruit {
 	position: absolute;
 	display: block;
-	width: 9%;
-	height: 62%;
-	margin: 35px 13%;
+	width: 10vw;
+	height: 28vw;
+	margin: 4vw 15vw;
 	/*placed*/
 	z-index: 3;
 }
@@ -74,9 +72,9 @@ body {
 .puding1 {
 	position: absolute;
 	display: block;
-	width: 12%;
-	height: 25%;
-	margin: 888px 73%;
+	width: 12vw;
+	height: 12vw;
+	margin: 69vw 68vw;
 	/*placed*/
 	z-index: 2;
 }
@@ -84,9 +82,9 @@ body {
 .puding6 {
 	position: relative;
 	display: block;
-	width: 40%;
-	height: 40%;
-	margin: 90px 0%;
+	width: 24vw;
+	height: 20vw;
+	margin: 8vw -1vw;
 	/*placed*/
 	float: right;
 	z-index: 2;
@@ -95,9 +93,9 @@ body {
 .puding5 {
 	position: relative;
 	display: block;
-	width: 30%;
-	height: 30%;
-	margin: -10px 0%;
+	width: 15vw;
+	height: 15vw;
+	margin: 1vw 0vw;
 	/*placed*/
 	float: right;
 	z-index: 2;
@@ -106,9 +104,9 @@ body {
 .puding7 {
 	position: relative;
 	display: block;
-	width: 20%;
-	height: 20%;
-	margin: -130px 430px;
+	width: 10vw;
+	height: 8vw;
+	margin: -9vw 30vw;
 	/*placed*/
 	float: right;
 	z-index: 2;
@@ -117,9 +115,9 @@ body {
 .puding2 {
 	position: relative;
 	display: block;
-	width: 20%;
-	height: 20%;
-	margin: -20px -20px;
+	width: 11vw;
+	height: 9vw;
+	margin: -1vw -1vw;
 	/*placed*/
 	float: left;
 	z-index: 2;
@@ -128,9 +126,9 @@ body {
 .puding4 {
 	position: relative;
 	display: block;
-	width: 50%;
-	height: 50%;
-	margin: 0px;
+	width: 27vw;
+	height: 23vw;
+	margin: 2vw;
 	/*placed*/
 	float: right;
 	z-index: 2;
@@ -141,19 +139,19 @@ body {
 	border-style: solid;
 	border-color: #FFFFBB;
 	border-radius: 0;
-	border-width: 3px;
+	border-width: 0.4vw;
 	position: relative;
-	margin-top: 500px;
-	margin-bottom: 100px;
-	margin-right: 140px;
-	margin-left: 140px;
-	padding: 120px;
-	padding-top: 10px;
-	padding-bottom: 80px;
+	margin-top: 40vw;
+	margin-bottom: 10vw;
+	margin-right: 14vw;
+	margin-left: 14vw;
+	padding: 8vw;
+	padding-top: 0.9vw;
+	padding-bottom: 10vw;
 	text-align: left;
 	color: white;
 	font-family: "Microsoft JhengHei";
-	font-size: 25px;
+	font-size: 1.8vw;
 	z-index: 1;
 }
 
