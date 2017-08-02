@@ -4,6 +4,12 @@ $(document).ready(function() {
         $('html, body').animate({
             scrollTop: $("#home").offset().top
         }, 1300, 'easeInOutExpo');
+    });  
+    $("#welcomebtn").click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#author").offset().top
+        }, 1300, 'easeInOutExpo');
     });
     $("#authorbar").click(function() {
         $('html, body').animate({
