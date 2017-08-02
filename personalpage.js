@@ -23,7 +23,7 @@ $(document).ready(function() {
     $("#storybar").click(function() {
         $('html, body').animate({
             scrollTop: $("#story").offset().top
-        }, 1300, 'easeInOutExpo');
+        }, 1300, 'swing');
     });
     $("#friendsbar").click(function() {
         $('html, body').animate({
