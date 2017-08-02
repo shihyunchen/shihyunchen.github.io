@@ -16,24 +16,7 @@ $(document).ready(function() {
             scrollTop: $("#author").offset().top
         }, 1300, 'easeInOutExpo');
     });
-     $("#fruitbtn").click(function(event) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#introduction").offset().top
-        }, 1300, 'easeInOutExpo');
-    });
-      $("#pdn").click(function(event) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#experience").offset().top
-        }, 1300, 'easeInOutExpo');
-    });
-       $("#pdn6").click(function(event) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#story").offset().top
-        }, 1300, 'easeInOutExpo');
-    });
+     
     $("#introbar").click(function() {
         $('html, body').animate({
             scrollTop: $("#introduction").offset().top
@@ -57,6 +40,24 @@ $(document).ready(function() {
     $("#famousbar").click(function() {
         $('html, body').animate({
             scrollTop: $("#famous").offset().top
+        }, 1300, 'easeInOutExpo');
+    });
+    $("#fruitbtn").click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#introduction").offset().top
+        }, 1300, 'easeInOutExpo');
+    });
+      $("#pdn").click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#experience").offset().top
+        }, 1300, 'easeInOutExpo');
+    });
+       $("#pdn6").click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#story").offset().top
         }, 1300, 'easeInOutExpo');
     });
      $("#pdn5").click(function(event) {
