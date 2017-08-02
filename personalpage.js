@@ -1,24 +1,24 @@
 $(document).ready(function() {
     $("#homebar").click(function(event) {
-        event.preventDefault();
+        //event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#home").offset().top
         }, 1300, 'easeInOutExpo');
     });  
     $("#welcomebtn").click(function(event) {
-        event.preventDefault();
+        //event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#author").offset().top
         }, 1300, 'easeInOutExpo');
     });
     $("#authorbar").click(function(event) {
-        event.preventDefault();
+        //event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#author").offset().top
         }, 1300, 'easeInOutExpo');
     });
      $("#fruitbtn").click(function(event) {
-        event.preventDefault();
+        //event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#introduction").offset().top
         }, 1300, 'easeInOutExpo');
